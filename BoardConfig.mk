@@ -227,6 +227,7 @@ include device/qcom/sepolicy-legacy-um/sepolicy.mk
 
 BOARD_SEPOLICY_VERS := 29.0
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+SELINUX_IGNORE_NEVERALLOWS=true
 
 # Shims
 TARGET_LD_SHIM_LIBS := \
