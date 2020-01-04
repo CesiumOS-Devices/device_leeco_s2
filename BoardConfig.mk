@@ -55,7 +55,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 
 TARGET_KERNEL_SOURCE := kernel/leeco/msm8976
-TARGET_KERNEL_CONFIG := lineage_s2_defconfig
+TARGET_KERNEL_CONFIG := s2_defconfig
 
 # APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
